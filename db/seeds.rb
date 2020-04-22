@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+MicroService.destroy_all
+
+MicroService.create(code: 'backend', url: 'www.backend.pl')
+MicroService.create(code: 'wallet', url: 'www.wallet.pl')
